@@ -7,6 +7,7 @@ import replace from 'rollup-plugin-replace';
 import uglify from 'rollup-plugin-uglify';
 import postcss from 'rollup-plugin-postcss';
 import serve from 'rollup-plugin-serve';
+import builtins from 'rollup-plugin-node-builtins'
 import livereload from 'rollup-plugin-livereload';
 
 // PostCSS plugins
@@ -21,13 +22,14 @@ export default {
   format: 'iife',
   sourceMap: true,
   plugins: [
+    builtins(),
     // bundle css
     postcss({
       plugins: [
         simplevars(),
         nested(),
         cssnext({ warnForDuplicates: false, }),
-        cssnano(),
+        cssnano()
       ],
       extensions: [ '.css' ],
     }),
