@@ -2,17 +2,13 @@
   "default":{
     "ruler" : {
       "width" : 10,
-      "fillColor" : "aqua",
-      "position" : 1
+      "fillColor" : "aqua"
     },
     "backbone":{
       "width":20
     },
     "qtl" : {
       "fillColor" : ["red"]
-    },
-    "marker" : {
-      "labelPosition" : 2
     }
   },
   "Pv02":{
