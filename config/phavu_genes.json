@@ -1,0 +1,24 @@
+{
+  "default":{
+    "ruler" : {
+      "width" : 10,
+      "fillColor" : "aqua",
+      "position" : 1
+    },
+    "backbone":{
+      "width":20
+    },
+    "qtl" : {
+      "fillColor" : ["red"]
+    },
+    "marker" : {
+      "labelPosition" : 2
+    }
+  },
+  "Pv02":{
+    "backbone":{
+      "width" : 60
+    },
+    "invert":true
+  }
+}
