@@ -1,0 +1,20 @@
+{
+  "default":{
+    "ruler" : {
+      "width" : 10,
+      "fillColor" : "aqua"
+    },
+    "backbone":{
+      "width":20
+    },
+    "qtl" : {
+      "fillColor" : ["red"]
+    }
+  },
+  "Pv02":{
+    "backbone":{
+      "width" : 60
+    },
+    "invert":true
+  }
+}
