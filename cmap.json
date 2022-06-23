@@ -77,10 +77,10 @@
   "sources" : [ {
       "id" : "pv_consensus",
       "method": "GET",
-      "url": "data/PvConsensus_GaleanoFernandez2011_a.cmap",
+      "url": "data/PvCookUCDavis2009.cmap",
       "filters" : [],
       "config": {
-        "url" : "config/phavu_genes.json",
+        "url" : "config/phavu_genes.yml",
         "method":"GET",
         "data":{}
       },
@@ -102,7 +102,7 @@
       "url": "data/phavu.collinearity+genes+markers.cmap",
       "filters" : [],
       "config": {
-        "url" : "config/phavu_genes.json",
+        "url" : "config/phavu_genes.yml",
         "method":"GET",
         "data":{}
       },
@@ -120,7 +120,7 @@
       "filters" : [],
       "config": {
         "method" : "GET",
-        "url" : "config/phavu_genes.json"
+        "url" : "config/phavu_genes.yml"
       },
       "linkouts" : [
         {
@@ -132,7 +132,7 @@
     }, {
       "id" : "gm_composite",
       "method": "GET",
-      "url" : "data/Soybean-GmComposite2003.cmap",
+      "url" : "data/glycine_max-GmCons30cM.dat",
       "filters" : [],
       "linkouts" : [
         {
